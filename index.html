@@ -22,19 +22,30 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 80%;
+            text-align: center;
         }
         h1 {
             color: #333;
         }
         p {
             color: #666;
+            margin: 20px 0;
         }
-        a {
-            color: #007bff;
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
             text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
-        a:hover {
-            text-decoration: underline;
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
     <script>
@@ -42,17 +53,23 @@
             var link = document.createElement('a');
             link.href = 'Resume/NarayanSahu_Resume.pdf';
             link.download = 'NarayanSahu_Resume.pdf';
-            link.target = '_blank';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
+        }
+        
+        function viewResume() {
+            window.open('Resume/NarayanSahu_Resume.pdf', '_blank');
         }
     </script>
 </head>
 <body>
     <div class="container">
         <h1>Narayan Sahu Resume</h1>
-        <p>Here is the link to my resume: <a href="#" onclick="downloadResume()">View Resume</a></p>
+        <p>Dedicated <b>Data Engineer</b> with around 3 years of professional experience in <b>Azure Data Factory, Power BI, SSIS, SSRS, Python ETL</b> development. Proven ability to deliver innovative solutions for critical projects, including DSNP and DMEVS for <b>United Health Group</b>, as well as the PNDT project. Passionate about driving business growth and enhancing customer experiences. Recognized for quick learning and teamwork, with accolades such as the Highflyer award, Performance award from business, Collaboration award from Product Owner, and Superhero Nomination for 2023. Eager to embrace new challenges and contribute to impactful projects.</p>
+        <p>Feel free to explore my resume through the options below:</p>
+        <button class="button" onclick="downloadResume()">Download Resume</button>
+        <button class="button" onclick="viewResume()">View in New Tab</button>
     </div>
 </body>
 </html>
