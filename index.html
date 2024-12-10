@@ -47,8 +47,28 @@
         .button:hover {
             background-color: #0056b3;
         }
+        .footer {
+            margin-top: 20px;
+        }
     </style>
     <script>
+        function calculateExperience(startDate) {
+            var start = new Date(startDate);
+            var now = new Date();
+            var yearDiff = now.getFullYear() - start.getFullYear();
+            var monthDiff = now.getMonth() - start.getMonth();
+            var dayDiff = now.getDate() - start.getDate();
+            
+            var experience = yearDiff + (monthDiff / 12) + (dayDiff / 365);
+            return experience.toFixed(1);  // One decimal place
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var experience = calculateExperience("2022-01-01");
+            document.getElementById("experience").innerText = experience;
+            document.getElementById("current-date").innerText = new Date().toLocaleDateString();
+        });
+
         function downloadResume() {
             var link = document.createElement('a');
             link.href = 'Resume/NarayanSahu_Resume.pdf';
@@ -57,7 +77,7 @@
             link.click();
             document.body.removeChild(link);
         }
-        
+
         function viewResume() {
             window.open('Resume/NarayanSahu_Resume.pdf', '_blank');
         }
@@ -66,10 +86,14 @@
 <body>
     <div class="container">
         <h1>Narayan Sahu - Transforming Data Insights</h1>
-        <p>Dedicated <b>Data Engineer</b> with around 3 years of professional experience in <b>Azure Data Factory, Power BI, SSIS, SSRS, Python ETL</b> development. Proven ability to deliver innovative solutions for critical projects, including DSNP and DMEVS for <b>United Health Group</b>, as well as the PNDT project. Passionate about driving business growth and enhancing customer experiences. Recognized for quick learning and teamwork, with accolades such as the Highflyer award, Performance award from business, Collaboration award from Product Owner, and Superhero Nomination for 2023. Eager to embrace new challenges and contribute to impactful projects.</p>
+        <p>Dedicated <b>Data Engineer</b> with around <span id="experience"></span> years of professional experience in <b>Azure Data Factory, Power BI, SSIS, SSRS, Python ETL</b> development. Proven ability to deliver innovative solutions for critical projects, including DSNP and DMEVS for <b>United Health Group</b>, as well as the PNDT project. Passionate about driving business growth and enhancing customer experiences. Recognized for quick learning and teamwork, with accolades such as the Highflyer award, Performance award from business, Collaboration award from Product Owner, and Superhero Nomination for 2023. Eager to embrace new challenges and contribute to impactful projects.</p>
         <p>Feel free to explore my resume through the options below:</p>
         <button class="button" onclick="downloadResume()">Download Resume</button>
         <button class="button" onclick="viewResume()">View in New Tab</button>
+    </div>
+    <div class="footer">
+            <p>Current Location : Bangalore</p>
+           <!-- <p>Date: <span id="current-date"></span></p>-->
     </div>
 </body>
 </html>
