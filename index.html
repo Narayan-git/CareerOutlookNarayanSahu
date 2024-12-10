@@ -37,11 +37,22 @@
             text-decoration: underline;
         }
     </style>
+    <script>
+        function downloadResume() {
+            var link = document.createElement('a');
+            link.href = 'Resume/NarayanSahu_Resume.pdf';
+            link.download = 'NarayanSahu_Resume.pdf';
+            link.target = '_blank';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Narayan Sahu Resume</h1>
-        <p>Here is the link to my resume: <a href="https://1drv.ms/b/s!As9hGjTr02hOgZBdH0umw5lJrBodoA?e=4vegtc" target="_blank">View Resume</a></p>
+        <p>Here is the link to my resume: <a href="#" onclick="downloadResume()">View Resume</a></p>
     </div>
 </body>
 </html>
