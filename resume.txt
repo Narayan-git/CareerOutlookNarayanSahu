@@ -1,0 +1,50 @@
+NARAYAN SAHU 
+DATA ENGINEER 
+ +91 8456890730  NARAYANSAHU650@OUTLOOK.COM  LINKEDIN  GITHUB 
+Summary 
+Data Engineer with 4+ years of experience in building scalable ETL pipelines, data warehousing, and reporting solutions using 
+Azure Data Factory, SSIS, Python, SQL Server, Snowflake, and Power BI. Proven success in delivering mission-critical projects 
+for UnitedHealth Group, including DSNP and DMEVS. Recognized for rapid learning, collaboration, and innovation with 
+multiple performance awards for problem‑solving, collaboration, and innovation. While my primary strength lies in data 
+engineering, I have also contributed to AI‑enabled workflows, including developing a RAG‑based chatbot (Clinical Intelligence 
+System) to support healthcare insights. Passionate about leveraging data to drive business insights and operational efficiency. 
+Technical Skills 
+Programming Languages: SQL, Python 
+Cloud Computing: Azure Data Factory, Azure SQL, Azure Blob Storage, Azure Databricks 
+Data Warehousing: Snowflake  
+Reporting Tools: Power BI, SSRS 
+Data Engineering Tools: SSIS, Python, Azure Data Factory  
+Databases: SQL Server, Azure SQL, Azure Cosmos DB 
+Databases: Microsoft Azure Fundamentals (AZ-900) 
+Work Experience 
+Optum India (UnitedHealth Group) – Bangalore, India Mar 2024 - Present 
+Data Engineer Bangalore 
+• Designing, developing and optimizing data pipelines and ETL processes. 
+• Implemented data transformation and data quality checks using SSIS, Python and Azure Data Factory to ensure the 
+reliability of daily data loads. 
+• Integrated and processed reaction data from multiple sources including Snowflake, Azure Cosmos DB, SQL Server 
+handling various file formats like JSON, CSV, and excel. 
+• Implemented SSIS and python packages for reverification, resulting in an 80% decrease in processing time for handling 
+a daily data refresh of around 10 lacs records. 
+• Automated Job Scheduling using SQL Server Agent and for Azure, used Azure Data Factory for orchestrating pipelines. 
+• Built Power BI dashboards for job monitoring and performance tracking 
+Optum India (UnitedHealth Group) – Bangalore, India Jan 2022 - Feb 2024 
+Associate Data Engineer Bangalore 
+• Developed ETL workflows using SSIS and Python (Pandas, NumPy). 
+• Integrated data from Oracle, Snowflake, and other sources for state verification. 
+• Created complex SQL views, stored procedures, and triggers to support business logic. 
+• Authored optimized SQL queries and followed best practices for code quality and performance. 
+• Worked on Azure migration using Azure Data Factory, Azure SQL, ADLS Gen2, Azure logic app. 
+• Participated in Agile ceremonies and supported QA/UAT phases. 
+ 
+Education  
+Fakir Mohan University, Balasore 2018 - 2021
+ Master in Computer Application 8.2/10 CGPA
+ Berhampur University, Bhubaneswar  2015 - 2018
+ Bachelor of Computer Applications (BCA) 70% 
+ 
+Additional Highlights 
+Strong understanding of SDLC, Agile/SCRUM, and Test-Driven Development (TDD) 
+Excellent communication, problem-solving, and team collaboration skills 
+Quick learner with a proactive approach to new technologies and challenges 
+Certified through Optum AI Dojo program and recognized among the Super 30 by Optum’s CTO.
