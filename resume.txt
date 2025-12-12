@@ -15,7 +15,7 @@ Data Warehousing: Snowflake
 Reporting Tools: Power BI, SSRS 
 Data Engineering Tools: SSIS, Python, Azure Data Factory  
 Databases: SQL Server, Azure SQL, Azure Cosmos DB 
-Databases: Microsoft Azure Fundamentals (AZ-900) 
+Certifications: AI Dojo - Generative AI by OTU, Microsoft Azure Fundamentals (AZ-900)
 Work Experience 
 Optum India (UnitedHealth Group) – Bangalore, India Mar 2024 - Present 
 Data Engineer Bangalore 

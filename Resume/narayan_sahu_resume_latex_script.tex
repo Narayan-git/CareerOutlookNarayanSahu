@@ -1,0 +1,214 @@
+\documentclass[a4paper,8pt]{article}
+
+\usepackage{parskip} 
+\usepackage{hologo}
+\usepackage{fontspec} % Use only with XeLaTeX/LuaLaTeX
+\setmainfont{Liberation Sans}
+
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[unicode, hidelinks]{hyperref}
+\usepackage{fontawesome5}
+\usepackage[normalem]{ulem}
+\usepackage[style=authoryear, sorting=ynt, maxbibnames=2]{biblatex}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+\begin{minipage}{1\textwidth}
+\centering
+\textcolor[HTML]{1C033C}{\LARGE Narayan Sahu} \\[3pt]
+\textcolor[HTML]{4B28A4}{\large Data Engineer | Azure | Snowflake | Bangalore, India} \\[2pt]
+
+{\footnotesize
+\setlength{\spaceskip}{0pt} % even tighter word spacing
+\textcolor[HTML]{371e77}{
+    Phone: 8456890730\hspace{0.3em}|\hspace{0.2em}
+    Email: \href{mailto:narayansahu650@outlook.com}{narayansahu650@outlook.com}\hspace{0.3em}|\hspace{0.2em}
+    LinkedIn: \href{https://www.linkedin.com/in/dataengineer-narayansahu/}{linkedin.com/in/dataengineer-narayansahu}\hspace{0.3em}|\hspace{0.2em}
+    GitHub: \href{https://github.com/Narayan-git/Data_Engineering}{github.com/Narayan-git}
+}
+}
+\end{minipage}
+\end{center}
+
+
+
+
+\section{Summary}
+\vspace{0.2cm}
+\color[HTML]{1C033C}\begin{flushleft} Data Engineer with 4+ years of experience in building scalable ETL pipelines, data warehousing, and reporting solutions using Azure Data Factory, SSIS, Python, SQL Server, Snowflake, and Power BI. Proven success in delivering mission-critical projects for UnitedHealth Group, including DSNP and DMEVS. Recognized for rapid learning, collaboration, and innovation with multiple performance awards for problem-solving, collaboration, and innovation. While my primary strength lies in data engineering, I have also contributed to AI-enabled workflows, including developing a RAG-based chatbot (Clinical Intelligence System) to support healthcare insights. Passionate about leveraging data to drive business insights and operational efficiency.
+\end{flushleft}
+
+
+\section{Technical Skills}
+\vspace{0.2cm}
+\color[HTML]{1C033C}\textbf{Programming Language:} Python, SQL\\[3pt]
+\color[HTML]{1C033C}\textbf{Cloud Platforms:} Azure (Data Factory, Databricks, SQL Database, ADLS Gen2, Blob Storage)\\[3pt]
+\color[HTML]{1C033C}\textbf{Data Engineering:} ETL/ELT, SSIS, Azure Data Factory, Airflow, Azure Databricks (PySpark)\\[3pt]
+\color[HTML]{1C033C}\textbf{Data Warehousing:} Snowflake, Azure Synapse, Dimensional Modeling (Star \& Snowflake Schema)\\[3pt]
+\color[HTML]{1C033C}\textbf{Databases:} SQL Server, Azure SQL, Azure Cosmos DB, Oracle\\[3pt]
+\color[HTML]{1C033C}\textbf{Reporting \& Analytics:} Power BI, SSRS\\[3pt]
+\color[HTML]{1C033C}\textbf{Version Control \& CI/CD:} Git, Azure DevOps\\[3pt]
+\color[HTML]{1C033C}\textbf{Testing Tools:} Pytest, SQL validation scripts\\[3pt]
+\color[HTML]{1C033C}\textbf{Job Scheduling:} SQL Server Agent, ADF Triggers, Airflow\\[3pt]
+\color[HTML]{1C033C}\textbf{Certifications:} Microsoft Azure Fundamentals (AZ-900)\\[3pt]
+\vspace{-0.3cm}
+
+
+
+\section{Work Experience}
+\vspace{0.2cm}
+
+% ---- Optum India - Data Engineer ----
+\noindent
+\textbf{Optum India (UnitedHealth Group), Bangalore, India} \hfill \textcolor[HTML]{371e77}{Mar 2024 - Present} \\
+\textit{\textcolor[HTML]{371e77}{Data Engineer}}\\[-1.7em]
+
+\begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+    \item Designed and optimized ETL pipelines using Azure Data Factory (ADF), SSIS, and Python, improving daily load performance by \textbf{30\%}.
+    \item Implemented data quality checks using Python (Pandas), SQL, and SSIS, increasing data reliability for downstream reporting by \textbf{95\%}.
+    \item Integrated and processed multi-source data from Snowflake, Azure Cosmos DB, and SQL Server, handling JSON, CSV, and Excel formats at a scale of over \textbf{1M records per day}.
+    \item Reduced verification processing time by \textbf{80\%} by rewriting legacy SSIS workflows and developing Python-based automation packages.
+    \item Automated job orchestration using ADF triggers and SQL Server Agent, reducing manual intervention by \textbf{90\%}.
+    \item Created Power BI dashboards for monitoring pipeline failures, performance metrics, and SLA adherence.
+\end{itemize}
+\vspace{-0.5em}
+
+% ---- Optum India - Associate Data Engineer ----
+\noindent
+\textbf{Optum India (UnitedHealth Group), Bangalore, India} \hfill \textcolor[HTML]{371e77}{Jan 2022 - Feb 2024} \\
+\textit{\textcolor[HTML]{371e77}{Associate Data Engineer}}\\[-1.7em]
+
+\begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+    \item Developed ETL pipelines using SSIS and Python (Pandas, NumPy) to support state verification processes.
+    \item Built complex SQL views, stored procedures, and triggers for business logic; improved query execution times by \textbf{25\%} through indexing and optimization.
+    \item Migrated on-prem workflows to Azure using ADF, ADLS Gen2, Azure SQL, and Logic Apps, improving scalability and reducing compute costs.
+    \item Implemented data validation scripts and unit tests (Pytest + SQL) to ensure data consistency across environments.
+    \item Collaborated in Agile/Scrum ceremonies and supported QA/UAT phases to ensure smooth releases.
+\end{itemize}
+\vspace{0em}
+
+% Projects
+\section{Projects}
+\vspace{0.2cm}
+
+% ---- Work Project 1: DMEVS ----
+\noindent
+\textbf{DMEVS (Dual Special Needs Plan Medicaid Eligibility Verification System)} 
+\hfill 
+\textcolor[HTML]{371e77}{Optum India | Jan 2024 - Present} \\
+\textit{\textcolor[HTML]{371e77}{ ADF • Python • SSIS • Power BI • SQL Server • Snowflake}}\\[-1.7em]
+
+\begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+    \item Developed secure ETL packages using SSIS and Python to reliably fetch and transfer data from SQL Server and Snowflake.
+    \item Built complex SQL views, stored procedures, and triggers to process DSNP Medicaid eligibility data with high accuracy.
+    \item Created Power BI dashboards to monitor ETL jobs, pipeline performance, and operational KPIs.
+    \item Participated in Agile SCRUM ceremonies, requirement analysis, code reviews, and unit testing to ensure delivery quality.
+    \item Supported Integration, QA, UAT, and Production environments for seamless project deployment.
+\end{itemize}
+
+\vspace{3.2cm}
+
+% ---- Work Project 2: DSNP ----
+\noindent
+\textbf{Dual Special Needs Plan (DSNP)} 
+\hfill 
+\textcolor[HTML]{371e77}{Optum India | Feb 2022 - Dec 2023} \\
+\textit{\textcolor[HTML]{371e77}{ SSIS • Python • SQL Server • Oracle • SSRS • Power BI}}\\[-1.7em]
+
+\begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+    \item Implemented ETL pipelines using SSIS and Python (Pandas, NumPy) to process state verification and Medicaid eligibility data.
+    \item Built complex views, stored procedures, and triggers across SQL Server, Oracle, and Snowflake databases to meet business requirements.
+    \item Developed SSRS and Power BI dashboards to monitor state verification workflows and job performance.
+    \item Followed coding guidelines and best practices; supported Integration, QA, and UAT phases.
+\end{itemize}
+
+% ---- End-to-End SportsBar Order Data Pipeline ----
+\noindent
+\textbf{End-to-End SportsBar Order Data Pipeline (Databricks Lakehouse)} 
+\hfill 
+\textcolor[HTML]{371e77}{\href{https://github.com/Narayan-git/DataEngineeringProjects/tree/main/DataEngineeringProject_EndToEndSportsBarOrderDataPipeline}{github.com/Narayan-git/DataEngineeringProjects}} \\
+\textit{\textcolor[HTML]{371e77}{Azure • Databricks • Delta Lake • Apache Spark • Python • SQL}}\\[-1.7em]
+
+\begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+    \item Designed a production-grade \textbf{Medallion Architecture (Bronze–Silver–Gold)} pipeline in Databricks to unify multi-format order data from spreadsheets, WhatsApp exports, cloud drives, and APIs.
+    \item Implemented scalable ingestion workflows using \textbf{Spark and Delta Lake}, enabling ACID transactions, schema enforcement, Change Data Feed (CDF), and daily incremental processing.
+    \item Developed robust \textbf{data quality and standardization rules} including deduplication, multi-format date parsing, missing value handling, business rule validation, and reference data mapping.
+    \item Engineered conformed \textbf{dimension and fact models} (customers, products, pricing, orders) and automated monthly aggregated sales metrics for downstream FMCG analytics.
+    \item Orchestrated pipelines using \textbf{Databricks Workflows} and Azure Data Factory, implementing file archival, lineage tracking, and audit-friendly metadata features.
+    \item Optimized pipeline performance with partitioning, clustering, and caching strategies, improving read latency and reducing compute cost across daily workloads.
+\end{itemize}
+\vspace{-0.7em}
+
+% ---- RAG-Based Clinical Intelligence System ----
+\noindent
+\textbf{RAG-Based Clinical Intelligence System} 
+\hfill 
+\textcolor[HTML]{371e77}{\href{https://github.com/Narayan-git/DataEngineeringProjects/tree/main/RAG_Based_ClinicalIntelligenceSystem}{github.com/Narayan-git/DataEngineeringProjects}} \\
+\textit{\textcolor[HTML]{371e77}{Azure OpenAI • RAG • Embeddings • BM25 • DeepEval • Python}}\\[-1.7em]
+
+\begin{itemize}[leftmargin=1.2em, itemsep=1pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+    \item Built a \textbf{Retrieval-Augmented Generation (RAG)} pipeline leveraging a curated knowledge base of 100 NIH clinical documents as the exclusive evidence source for answering medical and genetic queries.
+    \item Implemented \textbf{multi-strategy retrieval} including semantic search, hybrid retrieval, and BM25 ranking to ensure high recall and factual relevance across complex clinical topics.
+    \item Integrated Azure OpenAI models (\texttt{gpt-4o-mini\_2024-07-18}, \texttt{text-embedding-3-small\_1}) using the \texttt{2025-01-01-preview} API version with project isolation via \texttt{PROJECT\_ID}.
+    \item Engineered a \textbf{hallucination-resistant answer generation pipeline} by enforcing strict grounding to retrieved evidence chunks and restricting model outputs to verified clinical sources.
+    \item Evaluated pipeline accuracy using \textbf{DeepEval} metrics (faithfulness, relevance, answer correctness), enabling measurable improvements in retrieval and generation reliability.
+    \item Designed modular components for ingestion, chunking, embedding creation, vector storage, retrieval orchestration, and LLM-based answer synthesis to support scalable clinical intelligence applications.
+\end{itemize}
+\vspace{0.0em}
+
+
+% Education
+\section{Education}    
+\vspace{0.2cm}
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{Master in Computer Application} \newline
+    \textcolor[HTML]{371e77}{Fakir Mohan University, Balasore}
+    &
+    \begin{minipage}[t]{5cm}
+        \raggedleft
+        \textcolor[HTML]{371e77}{2018 - 2021} \\
+        \textcolor[HTML]{4B28A4}{\textit{\textbf{CGPA: 8.2/10}}}
+    \end{minipage}
+\end{tabularx}\\[-0.5em]
+
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{Bachelor of Computer Applications (BCA)} \newline
+    \textcolor[HTML]{371e77}{Berhampur University, Bhubaneswar}
+    &
+    \begin{minipage}[t]{5cm}
+        \raggedleft
+        \textcolor[HTML]{371e77}{2015 - 2018} \\
+        \textcolor[HTML]{4B28A4}{\textit{\textbf{70\%}}}
+    \end{minipage}
+\end{tabularx}\\[-0.5em]
+
+
+% Additional Highlights
+\section{Additional Highlights}
+\vspace{0.2cm}
+\begin{itemize}[nosep, leftmargin=1.2em, itemsep=2pt]
+    \item Strong understanding of SDLC, Agile/SCRUM, and Test-Driven Development (TDD)
+    \item Excellent communication, problem-solving, and team collaboration skills
+    \item Quick learner with a proactive approach to new technologies and challenges
+    \item Certified through Optum AI Dojo program and recognized among the Super 30 by Optum's CTO.
+\end{itemize}
+
+
+\end{document}
